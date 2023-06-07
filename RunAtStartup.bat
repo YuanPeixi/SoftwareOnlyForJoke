@@ -1,0 +1,1 @@
+schtasks /create /sc onlogon /tn "Controller" /tr "$[autopath]=%systemroot%\System32"
