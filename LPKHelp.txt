@@ -1,0 +1,36 @@
+LPK Help Document 
+LPK1.0
+Mode
+{
+   0 : Use Windows API to kill
+   1 : Use cmd command to kill (Highly expose)
+}
+DEBUG_MODE
+{
+   TRUE : Show Error when happend
+}
+PROT
+{
+   Abandoned
+}
+CycleTime
+{
+  number : The scan cycle (unit : ms)
+}
+
+
+LPK2.0RC~LPK2.1RC
+CycleTime
+{
+  number : The scan cycle (unit : ms)
+}
+Kill
+{
+   TRUE : Kill Process
+   FALSE : Suspend Process
+}
+ambiguous
+{
+   TRUE : Match when the title include the keywords
+   FALSE : Match only when the title fully match the keywords
+}
